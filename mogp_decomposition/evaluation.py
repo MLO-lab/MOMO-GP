@@ -5,7 +5,7 @@ import matplotlib.patches as mpatches
 from operator import itemgetter
 from sklearn.metrics import *
 
-def purity_score(y_true, y_pred):
+def purity_score(y_true2, y_pred2):
     """Purity score
         Args:
             y_true(np.ndarray): n*1 matrix Ground truth labels
@@ -14,6 +14,8 @@ def purity_score(y_true, y_pred):
         Returns:
             float: Purity score
     """
+    y_true=y_true2.copy()
+    y_pred=y_pred2.copy()
     # matrix which will hold the majority-voted labels
     y_voted_labels = np.zeros(y_true.shape)
     # Ordering labels

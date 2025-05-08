@@ -30,6 +30,8 @@ source activate momogp
 ```
 
 The steps 3 and 4 are not necessary, unless you would like to provide the feature relevance maps.
+
+
 3. Create a python environment in `conda`:
 
 ```bash

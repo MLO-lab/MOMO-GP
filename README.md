@@ -29,6 +29,7 @@ conda env create -f momogpEnv.yml
 source activate momogp
 ```
 
+<span style="display:none">
 3. Create a python environment in `conda`:
 
 ```bash
@@ -40,7 +41,7 @@ conda env create -f seaCell.yml
 ```bash
 source activate seaCell
 ```
-
+</span>
 ## Citation
 
 This paper is under review

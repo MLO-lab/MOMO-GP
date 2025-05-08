@@ -1,4 +1,4 @@
-name: momogp9
+name: momogp
 channels:
   - conda-forge
   - defaults

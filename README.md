@@ -20,13 +20,13 @@ We suggest using [conda](https://docs.conda.io/en/latest/miniconda.html) to mana
 1. Create a python environment in `conda`:
 
 ```bash
-conda env create -f environment_MOGP.yml
+conda env create -f momogpEnv.yml
 ```
 
 2. Activate freshly created environment:
 
 ```bash
-source activate MOGP-GPFLUX
+source activate momogp
 ```
 
 3. Create a python environment in `conda`:

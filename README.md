@@ -23,10 +23,11 @@ We suggest using [conda](https://docs.conda.io/en/latest/miniconda.html) to mana
 conda env create -f momogpEnv.yml
 ```
 
-2. Activate freshly created environment:
+2. Activate freshly created environment, and install the anndata seperately:
 
 ```bash
-source activate momogp
+conda activate your_environment_name
+conda install anndata==0.8.0
 ```
 
 The steps 3 and 4 are not necessary, unless you would like to provide the feature relevance maps.

@@ -15,7 +15,7 @@ Then to see the Gene Relevance Map results, you have to run `Running_GeneRelevan
 
 ## Installation
 
-We suggest using [conda](https://docs.conda.io/en/latest/miniconda.html) to manage your environments. Follow these steps to get `MOGP` up and running!
+We suggest using [conda](https://docs.conda.io/en/latest/miniconda.html) to manage your environments. Follow these steps to get `MOMO-GP` up and running!
 
 1. Create a python environment in `conda`:
 
@@ -26,17 +26,19 @@ conda env create -f momogpEnv.yml
 2. Activate freshly created environment, and install the anndata seperately:
 
 ```bash
-conda activate your_environment_name
-conda install anndata==0.8.0
+conda activate momogp
+pip install anndata==0.8.0
 ```
 
-The steps 3 and 4 are not necessary, unless you would like to provide the feature relevance maps.
+Follow steps 3 and 4 to get pseudo points, to provide further analysis using the feature relevance maps.
 
 
 3. Create a python environment in `conda`:
 
 ```bash
 conda env create -f seaCell.yml
+pip install anndata==0.8.0
+pip install SEACells
 ```
 
 4. Activate freshly created environment:

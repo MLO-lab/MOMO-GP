@@ -9,9 +9,9 @@ A Multi-Omic Multi-output Gaussian Processes for Integration of Multi Omics Data
 
 The `Running_MOGP.ipynb` file is the main entry point for loading the data and performing the inference.
 This file is located in `./experiments/CITEseq/RNA` folder.
-In this file, you can see the cell and gene embedding of the MOGP on RNA-seq data of sampled CITE-seq dataset. Running MOGP on the sampled data takes about 1 hour for 200 iterations. 
+In this file, you can see the cell and gene embedding of the MOMO-GP on RNA-seq data of sampled CITE-seq dataset. Running MOMO-GP on the sampled data takes about 1 hour for 200 iterations. Running this file is possible using momogp environment.  
 
-Then to see the Gene Relevance Map results, you have to run `Running_GeneRelevanceMAP.ipynb` script, located in `./experiments/CITEseq/RNA` folder.
+Then to see the Gene Relevance Map results, you have to run `Running_GeneRelevanceMAP.ipynb` script, located in `./experiments/CITEseq/RNA` folder. Running this file is possible using seaCell environment.  
 
 ## Installation
 

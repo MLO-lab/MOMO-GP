@@ -37,14 +37,14 @@ Follow steps 3 and 4 to get pseudo points, to provide further analysis using the
 
 ```bash
 conda env create -f seaCell.yml
-pip install anndata==0.8.0
-pip install SEACells
 ```
 
 4. Activate freshly created environment:
 
 ```bash
 source activate seaCell
+pip install anndata==0.8.0
+pip install SEACells
 ```
 ## Citation
 

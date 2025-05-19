@@ -42,7 +42,7 @@ conda env create -f seaCell.yml
 4. Activate freshly created environment:
 
 ```bash
-source activate seaCell
+conda activate seaCell
 pip install anndata==0.8.0
 pip install SEACells
 ```

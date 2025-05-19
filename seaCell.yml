@@ -1,5 +1,4 @@
 name: seaCell
-name: momogp
 channels:
   - conda-forge
   - bioconda

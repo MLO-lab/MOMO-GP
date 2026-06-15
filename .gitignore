@@ -1,0 +1,18 @@
+# OS / editor
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Local working notes (not committed)
+CLAUDE.md
+
+# MOMO-GP run artifacts
+tmp
+momogp_run/
+**/tb_logs/
+
+# Downloaded dataset caches (not part of the repo)
+data/pbmc3k_raw.h5ad
+data/pbmc3k_processed.h5ad
